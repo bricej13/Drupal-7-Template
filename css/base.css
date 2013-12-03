@@ -1225,6 +1225,13 @@ a.mybyu:hover, a.mybyu:active, a.sign-in:hover, a.sign-in:active, .open #search-
   padding: 10px 0;
 }
 
+#primary-nav .sublinks li a:before {
+    content: '\25B8';
+    font-size: 18px;
+    list-style-type: none;
+    margin-right: 4px;
+}
+
 /* Sidebar nav */
 /* line 302, ../sass/base.scss */
 nav.sidebar {

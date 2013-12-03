@@ -297,6 +297,13 @@ $sidePadding:5px;
   padding:10px 0;
 }
 
+#primary-nav .sublinks li a:before {
+    content: '\25B8';
+    font-size: 18px;
+    list-style-type: none;
+    margin-right: 4px;
+}
+
 
 /* Sidebar nav */
 nav.sidebar {
