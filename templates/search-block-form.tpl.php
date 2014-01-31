@@ -30,7 +30,7 @@
  */
 ?>
   <?php	
-	$search['search_block_form'] = '<input id="search" type="search" name="search_block_form">'; 
+	$search['search_block_form'] = '<input id="search" type="search" name="search_block_form" placeholder="' . theme_get_setting('search_placeholder_text') . '">'; 
 	$search['actions'] = '<input id="search-submit" type="submit" value="Search">';
 	
 	print $search['search_block_form'];
